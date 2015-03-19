@@ -15,6 +15,7 @@ setup(
     author='Nathan Reynolds',
     author_email='email@nreynolds.co.uk',
     url='https://github.com/nathforge/pypi-data',
+    install_requires=['six'],
     packages=find_packages('src'),
     package_dir={'': 'src'},
     test_suite='tests',
